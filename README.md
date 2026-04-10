@@ -18,13 +18,17 @@ Addon leggero e standalone per Stremio che estrae e riproduce contenuti da VixSr
 ## Istruzioni per il Deploy
 
 PRIMA DI TUTTO FARE IL FORK E MODIFICARE IL DOCKER FILE:
+
 [VIDEO
 ](https://www.youtube.com/watch?v=IXEi81ONdNo
 )
+
 ### 1. Deploy su Koyeb (Scelta consigliata per stabilità)
+
 [VIDEO
 ](https://www.youtube.com/watch?v=IXEi81ONdNo
 )
+
 Koyeb è un'ottima alternativa a Render, più veloce e senza il "periodo di sospensione" (sleep) del piano gratuito.
 
 1.  Crea un account su [Koyeb.com](https://www.koyeb.com/).
@@ -39,9 +43,11 @@ Koyeb è un'ottima alternativa a Render, più veloce e senza il "periodo di sosp
 
 
 ### 2. Deploy su Hugging Face Spaces (Gratuito)
+
 [VIDEO
 ](https://www.youtube.com/watch?v=Ti2BNDjm0ns
 )
+
 Ottimo come backup gratuito.
 
 1.  Crea un nuovo **Space** su [Hugging Face](https://huggingface.co/spaces).
@@ -51,8 +57,10 @@ Ottimo come backup gratuito.
 5.  Lo Space si avvierà automaticamente sulla porta `7860`.
 
 ### 3. Deploy su Vercel (Velocissimo)
+
 [VIDEO
 ](https://www.youtube.com/watch?v=TP3_sbt94Ag&feature=youtu.be)
+
 Dato che il progetto include i file `vercel.json` e `api/index.ts`, puoi ospitarlo come Serverless Function.
 
 1.  Vai su [Vercel.com](https://vercel.com/) e importa il tuo repository GitHub.
